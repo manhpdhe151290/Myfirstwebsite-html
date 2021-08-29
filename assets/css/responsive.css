@@ -1,0 +1,41 @@
+/* PC */
+@media (min-width: 1025px){
+
+}
+/* Tablet */
+@media(max-width :1024px){
+    .container {
+       min-width: 1285px;
+    }
+    .body {
+        display: block;
+        max-width: 1600px;
+    }
+    .header-content {
+        min-width: 1250px;
+    }
+    .body-image-anh1 {
+        margin-left :120px;
+    }
+    .body-description {
+        margin-left :120px;
+    }
+    .mtl {
+        margin-right: 125px;
+    }
+    .body-aside {
+        margin: 0 37px;
+        margin-top: 50px;
+    }
+    .aisde5-list-img1 {
+        min-width:550px ;
+        height: 200px;
+    }
+    .aisde5-list-img2 {
+        min-width:550px;
+        height: 200px;
+    }
+}
+/* mobile */
+@media (max-width :739px){ 
+}
